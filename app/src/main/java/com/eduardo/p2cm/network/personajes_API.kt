@@ -10,7 +10,7 @@ interface personajes_API {
 
     @GET
     fun getGames(
-        @Url url: String?    //getGames("cm/games/games_list.php")
+        @Url url: String?
     ): Call<ArrayList<personajes_hp>>
 
 
